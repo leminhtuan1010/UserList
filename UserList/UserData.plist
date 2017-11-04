@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Davis</string>
+		<key>Address</key>
+		<string>số 7 Thiền Quang</string>
+		<key>image</key>
+		<string>Davis</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Nga</string>
+		<key>Address</key>
+		<string>Số 7 Thiền Quang</string>
+		<key>image</key>
+		<string>Nga</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hieu</string>
+		<key>Address</key>
+		<string>Số 7 Thiền Quang</string>
+		<key>image</key>
+		<string>Hieu</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Khoa</string>
+		<key>Address</key>
+		<string>Số 47 Phạm Văn Đồng</string>
+		<key>image</key>
+		<string>Khoa</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Minh</string>
+		<key>Address</key>
+		<string>số 3,Phùng Khoang</string>
+		<key>image</key>
+		<string>Minh</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thanh</string>
+		<key>Address</key>
+		<string>Số 3, Phùng Khoang</string>
+		<key>image</key>
+		<string>Thanh</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Anh</string>
+		<key>Address</key>
+		<string>102 Hoàng Quốc Việt</string>
+		<key>image</key>
+		<string>Anh</string>
+	</dict>
+</array>
+</plist>
