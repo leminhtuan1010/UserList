@@ -11,6 +11,7 @@ class ProFileViewController: UIViewController {
     fileprivate let documentDirectory = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
     fileprivate let fileManager = FileManager.default
     
+    @IBOutlet weak var bt_index: UIButton!
     @IBOutlet weak var lbl_Name: UITextField!
     @IBOutlet weak var lbl_dob: UITextField!
     @IBAction func acc_Update(_ sender: Any) {
@@ -36,12 +37,15 @@ class ProFileViewController: UIViewController {
         lbl_Name.placeholder = lableName
         lbl_dob.placeholder = lableAddress
         
-        lbl_Name.layer.borderColor = UIColor.black.cgColor
-        lbl_dob.layer.borderColor = UIColor.black.cgColor
-        lbl_Name.layer.borderWidth = 2
-        lbl_dob.layer.borderWidth = 2
+//        lbl_Name.layer.borderColor = UIColor.blue.cgColor
+//        lbl_dob.layer.borderColor = UIColor.blue.cgColor
+        bt_index.layer.borderColor = UIColor.blue.cgColor
+        bt_index.layer.borderWidth = 2
+//        lbl_Name.layer.borderWidth = 2
+//        lbl_dob.layer.borderWidth = 2
         lbl_Name.layer.cornerRadius = 8
         lbl_dob.layer.cornerRadius = 8
+        bt_index.layer.cornerRadius = 8
     }
     func updatePlist(){
          let path = documentDirectory.appending("/UserData.plist")

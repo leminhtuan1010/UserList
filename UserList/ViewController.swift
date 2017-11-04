@@ -99,7 +99,7 @@ class ViewController: UIViewController {
 }
 extension ViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 65.5
+        return 100
     }
 }
 extension ViewController: UITableViewDataSource{
@@ -116,6 +116,7 @@ extension ViewController: UITableViewDataSource{
         
         return userProfileCell
     }
+    // đưa dữ liệu sang view
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let viewProFile = ProFileViewController(nibName: "ProFileViewController", bundle: nil)
         let nameLable = users[indexPath.row]
@@ -125,15 +126,17 @@ extension ViewController: UITableViewDataSource{
         navigationController?.pushViewController(viewProFile, animated: true)
         users.removeAll()
     }
-    
+    // Xoá cell trong tableview
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         return true
     }
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        // style xoá trên row
         if editingStyle == .delete{
             self.users.remove(at: indexPath.row)
             self.tableviewUser.deleteRows(at: [indexPath], with: .automatic)
         }
+        // up date vào plist
         let path = documentDirectory.appending("/UserData.plist")
         if fileManager.fileExists(atPath: path){
             var newArray = [[String : String]]()

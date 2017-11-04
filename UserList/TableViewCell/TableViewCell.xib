@@ -21,16 +21,16 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bNE-cl-V1Y">
-                        <rect key="frame" x="85" y="32.5" width="182.5" height="28.5"/>
+                        <rect key="frame" x="102.5" y="32.5" width="182.5" height="28.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CDE-fp-EVM">
-                        <rect key="frame" x="17" y="0.0" width="51" height="62.5"/>
+                        <rect key="frame" x="17" y="0.0" width="68.5" height="62.5"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSU-L3-NbY">
-                        <rect key="frame" x="85" y="2" width="182.5" height="28.5"/>
+                        <rect key="frame" x="102.5" y="2" width="182.5" height="28.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -40,7 +40,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-7g-MXQ">
-                        <rect key="frame" x="68" y="0.0" width="17" height="62.5"/>
+                        <rect key="frame" x="85.5" y="0.0" width="17" height="62.5"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                 </subviews>
@@ -66,7 +66,7 @@
                 </constraints>
             </tableViewCellContentView>
             <constraints>
-                <constraint firstItem="CDE-fp-EVM" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="60:375" id="FJo-bF-En4"/>
+                <constraint firstItem="CDE-fp-EVM" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="80:375" id="FJo-bF-En4"/>
                 <constraint firstItem="0ie-TM-ZM3" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="20:375" id="JIb-wZ-6fF"/>
                 <constraint firstItem="vRH-7g-MXQ" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" multiplier="20:375" id="Pgk-uV-185"/>
                 <constraint firstItem="CDE-fp-EVM" firstAttribute="height" secondItem="KGk-i7-Jjw" secondAttribute="height" multiplier="65:65.5" id="U7z-UK-cMm"/>

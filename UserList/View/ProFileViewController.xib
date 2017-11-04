@@ -13,6 +13,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProFileViewController" customModule="UserList" customModuleProvider="target">
             <connections>
+                <outlet property="bt_index" destination="PQY-ED-1Mj" id="VlE-K0-Eqv"/>
                 <outlet property="lbl_Name" destination="erE-kU-btS" id="bcy-42-god"/>
                 <outlet property="lbl_dob" destination="7mT-B1-qiZ" id="tvI-4w-aBX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
